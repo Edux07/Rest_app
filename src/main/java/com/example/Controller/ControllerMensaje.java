@@ -12,12 +12,12 @@ public class ControllerMensaje {
 
     @GetMapping(value = "/xml", produces = MediaType.APPLICATION_XML_VALUE)
     public persona getXml() {
-        return new persona(1, "John", 25, 70.5);
+        return new persona(1, "Edu", 23, 76.5);
     }
 
     @GetMapping(value = "/JSON", produces = MediaType.APPLICATION_JSON_VALUE)
     public persona getJson() {
-        return new persona(2, "Jane", 30, 65.8);
+        return new persona(2, "Sara", 24, 60.8);
     }
 
 
