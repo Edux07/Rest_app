@@ -15,7 +15,7 @@ public class ControllerMensaje {
         return new persona(1, "Edu", 23, 76.5);
     }
 
-    @GetMapping(value = "/JSON", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/json", produces = MediaType.APPLICATION_JSON_VALUE)
     public persona getJson() {
         return new persona(2, "Sara", 24, 60.8);
     }
